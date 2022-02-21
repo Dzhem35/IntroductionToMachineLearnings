@@ -58,9 +58,8 @@ The most common reasons for seeing code cell errors are as follows:
 Run the following code cell to import the NumPy module:
 """
 
-import numpy as np
 
-import numpy as np
+import numpy as np #nump kutuphanesini import edilir ve np olarak kullanilir.
 
 one_dimensional_array = np.array([1.2, 2.4, 3.5, 4.7, 6.1, 7.2, 8.3, 9.5]) #tek boyutlu array tanımlama ve print(array_ismi).
 print(one_dimensional_array)
